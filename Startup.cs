@@ -37,7 +37,7 @@ namespace storytimeapi
                 builder =>
                 {
                     builder.WithOrigins("https://storytimeapp.netlify.com",
-                                        "http://localhost");
+                                        "http://localhost:8000");
                 });
             });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
